@@ -1,0 +1,20 @@
+# Data
+yfinance>=0.2.54
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Statistics & optimisation
+scipy>=1.11.0
+statsmodels>=0.14.0
+scikit-learn>=1.4.0
+
+# Dashboard
+dash>=2.16.0
+plotly>=5.18.0
+
+# Static charts & exports
+matplotlib>=3.8.0
+openpyxl>=3.1.0
+
+# Notebook
+jupyterlab>=4.0.0

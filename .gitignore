@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Generated data (rebuild with `make run`)
+data/cache/
+data/enriched/
+outputs/
+
+# Generated reports — the pipeline writes these
+reports/*.csv
+reports/*.txt
+reports/*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
