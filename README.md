@@ -89,7 +89,7 @@ colour never silently switches meaning.
 
 ---
 
-## Design decisions worth calling out
+## Design decisions 
 
 - **No dual-axis charts.** Series at different scales are indexed to a common
   base instead, so the chart cannot imply a correlation that is not in the data.
@@ -161,17 +161,3 @@ app/                  dashboard
 
 notebooks/EDA.ipynb   exploratory analysis, executed
 ```
-
----
-
-## Data and scope
-
-Prices are split- and dividend-adjusted daily closes from Yahoo Finance. The
-risk-free rate is the mean 13-week Treasury bill yield over the window (2.73%).
-The benchmark is SPY. Returns exclude taxes; transaction costs are applied only
-in the backtests, at 5 bps per side.
-
-The universe is a fixed list of 60 large caps selected for sector coverage. It
-is chosen with hindsight and contains only companies that still exist, so
-universe-level returns carry survivorship bias — fine for studying
-cross-sectional structure, not a basis for a return forecast.
